@@ -47,7 +47,7 @@ This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `Piz
 - The `PizzoNFT` module mints and transfers NFTs based on user achievements tracked by the `Total` and `User` modules.
 - The `PizzoToken` module mints and manages tokens, integrated with the `Total` module for awarding tokens to users.
 - The `Total` module acts as a central hub, coordinating interactions between other modules to manage missions, user data, and rewards.
-```
+
 
 ## Modules
 
