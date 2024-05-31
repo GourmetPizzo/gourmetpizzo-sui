@@ -80,5 +80,3 @@ This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `Piz
 - `update_point(user: &mut User, cur_point: u64, ctx: &mut TxContext)` - Updates a user's points.
 - `get_user_point(user: &User, addr: address): UserPoints` - Returns a user's points.
 - `test_user_module()` - Test function for the user module.
-
-This README provides a summary of each module, including the contract address, purpose, and available methods.
