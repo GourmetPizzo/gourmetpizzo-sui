@@ -2,6 +2,53 @@
 
 This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `PizzoToken`, `Total`, and `User`. Each module provides specific functionalities related to user missions, NFTs, tokens, and user management.
 
+
+```plaintext
++-------------------+        +-------------------+        +-------------------+
+|                   |        |                   |        |                   |
+|     Mission       |------->|       User        |<------>|    PizzoNFT       |
+|                   |        |                   |        |                   |
+|  - create         |        |  - create_user    |        |  - mint           |
+|  - check_in       |        |  - update_point   |        |  - transfer       |
+|  - twitter_check  |        |  - get_user_point |        |  - update_desc.   |
+|  - invite_check   |        |                   |        |  - burn           |
++-------------------+        +-------------------+        +-------------------+
+        ^                                                       ^
+        |                                                       |
+        |                                                       |
+        |                                                       |
+        |                                                       |
+        v                                                       v
++-------------------+                                         +-------------------+
+|                   |                                         |                   |
+|      Total        |---------------------------------------->|    PizzoToken     |
+|                   |                                         |                   |
+|  - create_total   |                                         |  - init           |
+|  - mint_tokens    |                                         |  - mint           |
+|  - get_balance    |                                         |  - burn           |
+|  - award_tokens   |                                         |  - balance_of     |
+|  - end_game       |                                         |                   |
+|  - check_mission  |                                         |                   |
++-------------------+                                         +-------------------+
+```
+
+### Legend:
+
+- **Mission Module**: Manages user missions including attendance, Twitter check-ins, and invite status.
+- **User Module**: Tracks user points and scores.
+- **PizzoNFT Module**: Mints and manages custom NFTs.
+- **PizzoToken Module**: Manages fungible tokens with minting, burning, and transferring functionalities.
+- **Total Module**: Integrates user, mission, and token reward management.
+
+### Module Interactions:
+
+- The `Mission` module updates user activities and sends data to the `User` module.
+- The `User` module maintains user records and interacts with the `Mission` and `Total` modules.
+- The `PizzoNFT` module mints and transfers NFTs based on user achievements tracked by the `Total` and `User` modules.
+- The `PizzoToken` module mints and manages tokens, integrated with the `Total` module for awarding tokens to users.
+- The `Total` module acts as a central hub, coordinating interactions between other modules to manage missions, user data, and rewards.
+```
+
 ## Modules
 
 ### 1. Mission
