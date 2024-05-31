@@ -64,9 +64,7 @@ This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `Piz
 
 ### 5. User
 
-**Contract Address:** `0x98604b50a89c6bdfa7f
-
-6bc9d632df7da2e322c4738586b9cc417f4fe8051c2be`  
+**Contract Address:** `0x98604b50a89c6bdfa7f6bc9d632df7da2e322c4738586b9cc417f4fe8051c2be`  
 **Purpose:** Tracks user points and scores.
 
 | Method | Description | Parameters | Returns |
