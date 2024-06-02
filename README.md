@@ -1,4 +1,19 @@
-# GourmetPizzo Contracts
+# 🍕 GourmetPizzo
+ GourmetPizzo is a Web3 game inspired by the legend of Mr. Gome and the creation of the Pizzo Token.  this game, players combine various pizza ingredients to create the ultimate pizza, participate in individual and community leagues, and earn Pizzo Tokens and rewards. GourmetPizzo enhances user experience by fostering interaction between different blockchain networks and utilizing NFT assets.
+
+## 📄 Documentation
+For comprehensive information about GourmetPizzo, please refer to our [Documentation](https://gourmetpizzo.gitbook.io/gourmetpizzo).
+
+## 🛫 Pitch Deck
+To understand our vision, strategy, and potential impact, take a look at our [Pitch Deck](https://drive.google.com/file/d/13yhSmwDUc0CnkF9j0QiQHS7aCC44_lWj/view?usp=sharing).
+
+## 🕹️ Demo App
+Experience GourmetPizzo firsthand by visiting our [Demo App](https://sui-site.vercel.app/).
+
+## 🎥 Demo Video
+Watch our [demo video here](https://youtu.be/Y4Ky_8tUlg4).
+
+## 📋 Contracts
 
 This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `PizzoToken`, `Total`, and `User`. Each module provides specific functionalities related to user missions, NFTs, tokens, and user management.
 
@@ -121,3 +136,7 @@ This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `Piz
 | `update_point(user: &mut User, cur_point: u64, ctx: &mut TxContext)` | Updates a user's points. | `user: &mut User` - The user object. `cur_point: u64` - The current point value. `ctx: &mut TxContext` - Transaction context. | - |
 | `get_user_point(user: &User, addr: address): UserPoints` | Returns a user's points. | `user: &User` - The user object. `addr: address` - The user address. | `UserPoints` |
 | `test_user_module()` | Test function for the user module. | `ctx: &mut TxContext` - Transaction context. | - |
+
+##  🔗 Links
+[🌴 Linktree](https://linktr.ee/gourmetpizzo.sui) 
+ |  [📄 Documentation](https://gourmetpizzo.gitbook.io/gourmetpizzo)  | [🛫 Pitch Deck](https://drive.google.com/file/d/13yhSmwDUc0CnkF9j0QiQHS7aCC44_lWj/view?usp=sharing)  |  [🕹️ Demo App](https://sui-site.vercel.app/) | [🎥 Demo Video](https://youtu.be/Y4Ky_8tUlg4)
