@@ -10,9 +10,6 @@ To understand our vision, strategy, and potential impact, take a look at our [Pi
 ## 🕹️ Demo App
 Experience GourmetPizzo firsthand by visiting our [Demo App](https://sui-site.vercel.app/).
 
-## 🎥 Demo Video
-Watch our [demo video here](https://youtu.be/Y4Ky_8tUlg4).
-
 ## 📋 Contracts
 
 This repository contains five main Sui Move modules: `Mission`, `PizzoNFT`, `PizzoToken`, `Total`, and `User`. Each module provides specific functionalities related to user missions, NFTs, tokens, and user management.
